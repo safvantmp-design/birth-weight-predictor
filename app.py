@@ -15,7 +15,7 @@ def get_cleaned_data(form_data):
     smoke = float(form_data['smoke'])
 
     cleaned_data = {"gestation":[gestation],
-                    "parity":[parity],
+                    "parity":[parity],  
                     "age":[age],
                     "height":[height],
                     "weight":[weight],
